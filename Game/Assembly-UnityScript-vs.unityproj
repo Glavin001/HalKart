@@ -50,6 +50,7 @@
      <Compile Include="Assets\Sample Assets\Effects\Image Effects (Pro Only)\Scripts\PostEffectsBase.js" />
      <Compile Include="Assets\Sample Assets\Utility\DragRigidbody.js" />
      <Compile Include="Assets\Sample Assets\Utility\TimedObjectDestructor.js" />
+     <Compile Include="Assets\lowpolyblocks\scripts\FPSWalker.js" />
      <None Include="Assets\Sample Assets\Effects\Toon Shading\Shaders\Toony-Basic.shader" />
      <None Include="Assets\Sample Assets\Prototyping\Shaders\WorldCoord Diffuse.shader" />
      <None Include="Assets\Sample Assets\Effects\Light Shafts\Shaders\SamplePositions.shader" />
@@ -57,6 +58,7 @@
      <None Include="Assets\Sample Assets\Effects\Tessellation Shaders\Shaders\BumpedSpecularSmooth.shader" />
      <None Include="Assets\Sample Assets\Effects\Light Shafts\Shaders\Shared.cginc" />
      <None Include="Assets\Sample Assets\Effects\Light Shafts\Shaders\Coord.shader" />
+     <None Include="Assets\San Francisco House\readme.txt" />
      <None Include="Assets\Sample Assets\Effects\Image Effects (Pro Only)\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
      <None Include="Assets\Sample Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
      <None Include="Assets\Sample Assets\Effects\Projectors\Shaders\Projector Additive.shader" />
