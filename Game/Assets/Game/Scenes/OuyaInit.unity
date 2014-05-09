@@ -183,7 +183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayTime: 0
-  nextScene: Car
+  nextScene: City
 --- !u!4 &724106096
 Transform:
   m_ObjectHideFlags: 0
