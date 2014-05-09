@@ -53,25 +53,25 @@ public class GameController : MonoBehaviour
 		{
 			if (playerTagTime[0] >= targetTime)
 			{
-				gameWon = true;
 				winner = 1;
+				gameWon = true;
 			}
 			if (playerTagTime[1] >= targetTime)
 			{
-				gameWon = true;
 				winner = 2;
+				gameWon = true;
 			}
 			
 			if(playerTagTime[2] >= targetTime)
 			{
-				gameWon = true;
 				winner = 3;
+				gameWon = true;
 			}
 			
 			if(playerTagTime[3] >= targetTime)
 			{
-				gameWon = true;
 				winner = 4;
+				gameWon = true;
 			}
 		}
 	}
