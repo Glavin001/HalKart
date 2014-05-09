@@ -49,27 +49,30 @@ public class GameController : MonoBehaviour
 	
 	void Update()
 	{
-		if (playerTagTime[0] >= 100)
+		if(!gameWon)
 		{
-			gameWon = true;
-			winner = 1;
-		}
-		if (playerTagTime[1] >= 100)
-		{
-			gameWon = true;
-			winner = 2;
-		}
-
-		if(playerTagTime[2] >= 100)
-		{
-			gameWon = true;
-			winner = 3;
-		}
-
-		if(playerTagTime[3] >= 100)
-		{
-			gameWon = true;
-			winner = 4;
+			if (playerTagTime[0] >= targetTime)
+			{
+				gameWon = true;
+				winner = 1;
+			}
+			if (playerTagTime[1] >= targetTime)
+			{
+				gameWon = true;
+				winner = 2;
+			}
+			
+			if(playerTagTime[2] >= targetTime)
+			{
+				gameWon = true;
+				winner = 3;
+			}
+			
+			if(playerTagTime[3] >= targetTime)
+			{
+				gameWon = true;
+				winner = 4;
+			}
 		}
 	}
 	

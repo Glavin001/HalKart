@@ -7,21 +7,25 @@ public class PlayerController : MonoBehaviour
 	[Range(1, 4)]
 	public int player = 1;
 	private float lastUpdate = 0f;
-	
-	void Start () 
-	{
-	
-	}
 
 	void Update () 
 	{
-		if(isTagged)
+		if(!GameController.controller.GameWon && isTagged)
 		{
 			if(Time.time - lastUpdate >= 1f)
 			{
 				GameController.controller.playerTagTime[player-1]++;
 				lastUpdate = Time.time;
 			}
+		}
+	}
+
+	void OnTriggerEnter (Collider other)
+	{
+		if (isTagged)
+		{
+			isTagged = false;
+			other.GetComponent<PlayerController>().Tag();
 		}
 	}
 
