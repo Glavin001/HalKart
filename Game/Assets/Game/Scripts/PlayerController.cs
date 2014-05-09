@@ -24,8 +24,9 @@ public class PlayerController : MonoBehaviour
 	{
 		if (isTagged && other.tag == "Player")
 		{
-			isTagged = false;
+			GameController.controller.PlayerIt = player;
 			other.GetComponent<PlayerController>().Tag();
+			isTagged = false;
 		}
 	}
 
