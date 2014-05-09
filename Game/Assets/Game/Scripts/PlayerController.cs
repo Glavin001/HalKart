@@ -22,10 +22,11 @@ public class PlayerController : MonoBehaviour
 
 	void OnTriggerEnter (Collider other)
 	{
-		if (isTagged)
+		if (isTagged && other.tag == "Player")
 		{
-			isTagged = false;
+			GameController.controller.PlayerIt = player;
 			other.GetComponent<PlayerController>().Tag();
+			isTagged = false;
 		}
 	}
 
