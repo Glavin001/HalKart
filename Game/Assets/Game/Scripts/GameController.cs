@@ -12,6 +12,7 @@ public class GameController : MonoBehaviour
 	public int[] playerTagTime;
 	public int targetTime;
 	public int winner = 0;
+
 	
 	#region Properties
 	private bool gameWon = false;
@@ -19,6 +20,13 @@ public class GameController : MonoBehaviour
 	{
 		get{return gameWon;}
 		set{gameWon = value;}
+	}
+
+	private int playerIt = 0;
+	public int PlayerIt
+	{
+		get{return playerIt;}
+		set{playerIt = value;}
 	}
 	#endregion
 	
