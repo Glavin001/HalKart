@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
 
 	void OnTriggerEnter (Collider other)
 	{
-		if (isTagged)
+		if (isTagged && other.tag == "Player")
 		{
 			isTagged = false;
 			other.GetComponent<PlayerController>().Tag();
