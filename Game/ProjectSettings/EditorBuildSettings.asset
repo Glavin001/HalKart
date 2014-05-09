@@ -10,4 +10,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game/Scenes/OuyaInit.unity
   - enabled: 1
-    path: Assets/Game/Sample Assets/Sample Scenes/Scenes/Car.unity
+    path: Assets/Game/Assets/Sample Assets/Sample Scenes/Scenes/Car.unity
