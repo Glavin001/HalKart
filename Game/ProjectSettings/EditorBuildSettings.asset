@@ -8,6 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game/Scenes/OuyaInit.unity
   - enabled: 1
-    path: Assets/Game/Scenes/City.unity
+    path: Assets/Game/Scenes/MainMenu.unity
   - enabled: 1
-    path: Assets/Game/Scenes/4Player.unity
+    path: Assets/Game/Scenes/HFX.unity

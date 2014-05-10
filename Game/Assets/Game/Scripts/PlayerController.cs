@@ -81,6 +81,7 @@ public class PlayerController : MonoBehaviour
 	public void Tag()
 	{
 		isTagged = true;
+		GameController.controller.PlayerIt = player;
 		lastUpdate = Time.time;
 	}
 

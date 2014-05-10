@@ -1,0 +1,101 @@
+fileFormatVersion: 2
+guid: 9fc08cc3c8fa442c9b7cbb45ee481f11
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Bridge
+    100002: Building
+    100004: //RootNode
+    100006: Road
+    100008: RoadConnector
+    100010: RoadJunction
+    100012: SurfaceArea
+    100014: Water
+    100016: Waterway
+    400000: Bridge
+    400002: Building
+    400004: //RootNode
+    400006: Road
+    400008: RoadConnector
+    400010: RoadJunction
+    400012: SurfaceArea
+    400014: Water
+    400016: Waterway
+    2300000: Bridge
+    2300002: Building
+    2300004: Road
+    2300006: RoadConnector
+    2300008: RoadJunction
+    2300010: SurfaceArea
+    2300012: Water
+    2300014: Waterway
+    3300000: Bridge
+    3300002: Building
+    3300004: Road
+    3300006: RoadConnector
+    3300008: RoadJunction
+    3300010: SurfaceArea
+    3300012: Water
+    3300014: Waterway
+    4300000: Bridge
+    4300002: Building
+    4300004: Road
+    4300006: RoadConnector
+    4300008: RoadJunction
+    4300010: SurfaceArea
+    4300012: Water
+    4300014: Waterway
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

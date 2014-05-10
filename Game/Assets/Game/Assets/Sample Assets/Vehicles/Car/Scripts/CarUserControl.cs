@@ -8,13 +8,15 @@ OuyaSDK.IPauseListener,
 OuyaSDK.IResumeListener
 {
 		private CarController car;  // the car controller we want to use
+		private PlayerController player;
 		public float joystickDeadzone = 0.25f;
 		public OuyaSDK.OuyaPlayer controllerIndex = OuyaSDK.OuyaPlayer.player1;
-	
+
 		void Awake ()
 		{
 				// get the car controller
 				car = GetComponent<CarController> ();
+				player = this.gameObject.GetComponent<PlayerController>();
 		
 				OuyaSDK.registerMenuButtonUpListener (this);
 				OuyaSDK.registerMenuAppearingListener (this);
@@ -49,6 +51,14 @@ OuyaSDK.IResumeListener
 		{
 		}
 	#endregion
+
+		void Update ()
+		{
+			if (OuyaExampleCommon.GetButton (OuyaSDK.KeyEnum.BUTTON_O, controllerIndex)) 
+			{
+				player.UsePowerUp();
+			}
+		}
 	
 		void FixedUpdate ()
 		{

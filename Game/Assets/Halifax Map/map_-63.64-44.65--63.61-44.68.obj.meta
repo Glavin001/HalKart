@@ -1,0 +1,133 @@
+fileFormatVersion: 2
+guid: 2fbe299f85ab64fcca2b50a215c26270
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Bridge
+    100002: Building
+    100004: BusStop
+    100006: //RootNode
+    100008: Pool
+    100010: PowerTower
+    100012: Rail
+    100014: Rail_MeshPart0
+    100016: Rail_MeshPart1
+    100018: Road
+    100020: RoadConnector
+    100022: RoadCrossingAtConnector
+    100024: RoadJunction
+    100026: SurfaceArea
+    100028: SurfaceParking
+    100030: Water
+    400000: Bridge
+    400002: Building
+    400004: BusStop
+    400006: //RootNode
+    400008: Pool
+    400010: PowerTower
+    400012: Rail
+    400014: Rail_MeshPart0
+    400016: Rail_MeshPart1
+    400018: Road
+    400020: RoadConnector
+    400022: RoadCrossingAtConnector
+    400024: RoadJunction
+    400026: SurfaceArea
+    400028: SurfaceParking
+    400030: Water
+    2300000: Bridge
+    2300002: Building
+    2300004: BusStop
+    2300006: Pool
+    2300008: PowerTower
+    2300010: Rail_MeshPart0
+    2300012: Rail_MeshPart1
+    2300014: Road
+    2300016: RoadConnector
+    2300018: RoadCrossingAtConnector
+    2300020: RoadJunction
+    2300022: SurfaceArea
+    2300024: SurfaceParking
+    2300026: Water
+    3300000: Bridge
+    3300002: Building
+    3300004: BusStop
+    3300006: Pool
+    3300008: PowerTower
+    3300010: Rail_MeshPart0
+    3300012: Rail_MeshPart1
+    3300014: Road
+    3300016: RoadConnector
+    3300018: RoadCrossingAtConnector
+    3300020: RoadJunction
+    3300022: SurfaceArea
+    3300024: SurfaceParking
+    3300026: Water
+    4300000: Bridge_MeshPart0
+    4300002: Building
+    4300004: BusStop
+    4300006: Pool
+    4300008: PowerTower
+    4300010: Rail_MeshPart0
+    4300012: Rail_MeshPart1
+    4300014: Road_MeshPart0
+    4300016: RoadConnector
+    4300018: RoadCrossingAtConnector
+    4300020: RoadJunction
+    4300022: SurfaceArea
+    4300024: SurfaceParking
+    4300026: Water
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

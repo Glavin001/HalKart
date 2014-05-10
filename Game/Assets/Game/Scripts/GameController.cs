@@ -22,7 +22,7 @@ public class GameController : MonoBehaviour
 		set{gameWon = value;}
 	}
 
-	private int playerIt = 0;
+	private int playerIt = 1;
 	public int PlayerIt
 	{
 		get{return playerIt;}

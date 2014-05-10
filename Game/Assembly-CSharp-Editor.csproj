@@ -58,6 +58,7 @@
      <None Include="Assets\Game\Assets\Sample Assets\Effects\Light Shafts\Shaders\SamplePositions.shader" />
      <None Include="Assets\Game\Assets\Sample Assets\Effects\Image Effects (Pro Only)\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
      <None Include="Assets\Game\Assets\Sample Assets\Effects\Tessellation Shaders\Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\Game\Materials\fonts\Righteous\OFL.txt" />
      <None Include="Assets\Game\Assets\Sample Assets\Effects\Light Shafts\Shaders\Shared.cginc" />
      <None Include="Assets\Game\Assets\Sample Assets\Effects\Light Shafts\Shaders\Coord.shader" />
      <None Include="Assets\Game\Assets\San Francisco House\readme.txt" />
@@ -74,6 +75,7 @@
      <None Include="Assets\Game\Assets\Sample Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
      <None Include="Assets\Platform\Plugins\Android\res\values\strings.xml" />
      <None Include="Assets\Game\Assets\Sample Assets\Effects\Particle Systems\Particle Systems Guidelines.txt" />
+     <None Include="Assets\sky5X\README.txt" />
      <None Include="Assets\Game\Assets\Sample Assets\Cross Platform Input\Cross Platform Input Guidelines.txt" />
      <None Include="Assets\Game\Assets\Sample Assets\Effects\Particle Systems\Shaders\Priority Particle Add (Soft).shader" />
      <None Include="Assets\Game\Assets\Sample Assets\Effects\Toon Shading\Shaders\Toony-LightedOutline.shader" />
@@ -81,12 +83,14 @@
      <None Include="Assets\Game\Assets\Sample Assets\Effects\Shaders\Mobile-Spec.shader" />
      <None Include="Assets\Game\Assets\Sample Assets\Vehicles\Car\Car Guidelines.txt" />
      <None Include="Assets\Game\Assets\Sample Assets\Characters\Third Person Character\Third Person Character Guidelines.txt" />
+     <None Include="Assets\Game\Materials\fonts\Luckiest_Guy\LICENSE.txt" />
      <None Include="Assets\Game\Assets\Sample Assets\Cameras\Camera Guidelines.txt" />
      <None Include="Assets\Platform\Plugins\Android\res\layout\main.xml" />
      <None Include="Assets\Platform\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\Game\Assets\Sample Assets\Effects\Light Shafts\Shaders\Raymarch.shader" />
      <None Include="Assets\Game\Assets\Sample Assets\Effects\Light Shafts\Shaders\FinalInterpolation.shader" />
      <None Include="Assets\Game\Assets\Sample Assets\Characters\First Person Character\First Person Character Guidelines.txt" />
+     <None Include="Assets\Game\Materials\fonts\Audiowide\OFL.txt" />
      <None Include="Assets\Game\Assets\Sample Assets\Effects\Light Shafts\Shaders\Depth.shader" />
      <None Include="Assets\Game\Assets\Sample Assets\Vehicles\Rolling Ball\Rolling Ball Guidelines.txt" />
      <None Include="Assets\Game\Assets\Sample Assets\Effects\Light Shafts\Light Shafts Guidelines.txt" />

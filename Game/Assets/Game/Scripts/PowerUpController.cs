@@ -3,11 +3,11 @@ using System.Collections;
 
 public class PowerUpController : MonoBehaviour 
 {
-	public int type;
+	public int type = 4;
 	
 	void Start () 
 	{
-		Random.Range(1, 4);
+		//type = Random.Range(1, 4);
 	}
 	
 	void OnTriggerEnter(Collider other)
@@ -15,7 +15,7 @@ public class PowerUpController : MonoBehaviour
 		if (other.tag == "Player")
 		{
 			other.GetComponent<PlayerController>().GetPowerUp(type);
-			Destroy(this.gameObject); //Bad, use object pool
+			Destroy(gameObject); //Bad, use object pool
 		}
 	}
 }
