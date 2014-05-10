@@ -48,6 +48,7 @@ public class GameController : MonoBehaviour
 	
 	void Start()
 	{
+		gameWon = false;
 		playerTagTime = new int[4];
 		for(int i=0; i<playerTagTime.Length; i++)
 		{
@@ -75,11 +76,23 @@ public class GameController : MonoBehaviour
 				winner = 3;
 				gameWon = true;
 			}
-			
+
 			if(playerTagTime[3] >= targetTime)
 			{
 				winner = 4;
 				gameWon = true;
+			}
+		}
+
+		if (gameWon) 
+		{
+			if (OuyaExampleCommon.GetButton(OuyaSDK.KeyEnum.BUTTON_Y, OuyaSDK.OuyaPlayer.player1) ||
+			    OuyaExampleCommon.GetButton(OuyaSDK.KeyEnum.BUTTON_Y, OuyaSDK.OuyaPlayer.player2) ||
+			    OuyaExampleCommon.GetButton(OuyaSDK.KeyEnum.BUTTON_Y, OuyaSDK.OuyaPlayer.player3) ||
+			    OuyaExampleCommon.GetButton(OuyaSDK.KeyEnum.BUTTON_Y, OuyaSDK.OuyaPlayer.player4))
+			{
+				gameWon = false;
+				Application.LoadLevel(Application.loadedLevel);
 			}
 		}
 	}
@@ -95,7 +108,7 @@ public class GameController : MonoBehaviour
 			int groupY = (Screen.height - groupWidth) /2;
 			// Make a group on the center of the screen
 			GUI.BeginGroup (new Rect (groupX, groupY, groupWidth, groupHeight));
-			GUI.Box (new Rect (0, 0, groupWidth, groupHeight), "\n\nPlayer " + winner + " Wins!\nPress O to play again!");
+			GUI.Box (new Rect (0, 0, groupWidth, groupHeight), "\n\nPlayer " + winner + " Wins!\nPress Y to play again!");
 
 			GUI.EndGroup ();
 		}

@@ -75,7 +75,7 @@
      <None Include="Assets\Game\Assets\Sample Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
      <None Include="Assets\Platform\Plugins\Android\res\values\strings.xml" />
      <None Include="Assets\Game\Assets\Sample Assets\Effects\Particle Systems\Particle Systems Guidelines.txt" />
-     <None Include="Assets\sky5X\README.txt" />
+     <None Include="Assets\Game\Assets\sky5X\README.txt" />
      <None Include="Assets\Game\Assets\Sample Assets\Cross Platform Input\Cross Platform Input Guidelines.txt" />
      <None Include="Assets\Game\Assets\Sample Assets\Effects\Particle Systems\Shaders\Priority Particle Add (Soft).shader" />
      <None Include="Assets\Game\Assets\Sample Assets\Effects\Toon Shading\Shaders\Toony-LightedOutline.shader" />
