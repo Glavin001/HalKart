@@ -36,6 +36,11 @@ public class PlayerController : MonoBehaviour
 		spedUp = false;
 	}
 
+	void Start () 
+	{
+		Screen.SetResolution (1280, 720, true, 60);
+	}
+
 	void Update () 
 	{
 		//If tagged, update Game Controller

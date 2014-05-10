@@ -140,6 +140,7 @@
      <Compile Include="Assets\Game\Assets\Sample Assets\Vehicles\Rolling Ball\Scripts\Ball.cs" />
      <Compile Include="Assets\Game\Assets\Sample Assets\Vehicles\Rolling Ball\Scripts\BallUserControl.cs" />
      <Compile Include="Assets\Game\Assets\lowpolyblocks\scripts\MouseLook.cs" />
+     <Compile Include="Assets\Game\Scripts\ArrowController.cs" />
      <Compile Include="Assets\Game\Scripts\GameController.cs" />
      <Compile Include="Assets\Game\Scripts\LevelLoader.cs" />
      <Compile Include="Assets\Game\Scripts\PlayerController.cs" />
