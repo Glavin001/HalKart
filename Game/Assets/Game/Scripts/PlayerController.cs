@@ -8,6 +8,11 @@ public class PlayerController : MonoBehaviour
 	public int player = 1;
 	private float lastUpdate = 0f;
 
+	void Start () 
+	{
+		Screen.SetResolution (1280, 720, true, 60);
+	}
+
 	void Update () 
 	{
 		if(!GameController.controller.GameWon && isTagged)
